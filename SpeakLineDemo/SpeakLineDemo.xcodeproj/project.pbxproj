@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A3F5AF01E30967800EDB506 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3F5AEF1E30967800EDB506 /* AppDelegate.m */; };
+		9A3F5AF31E30967800EDB506 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3F5AF21E30967800EDB506 /* main.m */; };
+		9A3F5AF61E30967800EDB506 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3F5AF51E30967800EDB506 /* ViewController.m */; };
+		9A3F5AF81E30967800EDB506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3F5AF71E30967800EDB506 /* Assets.xcassets */; };
+		9A3F5AFB1E30967800EDB506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3F5AF91E30967800EDB506 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A3F5AEB1E30967800EDB506 /* SpeakLineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakLineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3F5AEE1E30967800EDB506 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A3F5AEF1E30967800EDB506 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A3F5AF21E30967800EDB506 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A3F5AF41E30967800EDB506 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A3F5AF51E30967800EDB506 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A3F5AF71E30967800EDB506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A3F5AFA1E30967800EDB506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A3F5AFC1E30967800EDB506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A3F5AE81E30967800EDB506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A3F5AE21E30967800EDB506 = {
+			isa = PBXGroup;
+			children = (
+				9A3F5AED1E30967800EDB506 /* SpeakLineDemo */,
+				9A3F5AEC1E30967800EDB506 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A3F5AEC1E30967800EDB506 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A3F5AEB1E30967800EDB506 /* SpeakLineDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A3F5AED1E30967800EDB506 /* SpeakLineDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9A3F5AEE1E30967800EDB506 /* AppDelegate.h */,
+				9A3F5AEF1E30967800EDB506 /* AppDelegate.m */,
+				9A3F5AF41E30967800EDB506 /* ViewController.h */,
+				9A3F5AF51E30967800EDB506 /* ViewController.m */,
+				9A3F5AF71E30967800EDB506 /* Assets.xcassets */,
+				9A3F5AF91E30967800EDB506 /* Main.storyboard */,
+				9A3F5AFC1E30967800EDB506 /* Info.plist */,
+				9A3F5AF11E30967800EDB506 /* Supporting Files */,
+			);
+			path = SpeakLineDemo;
+			sourceTree = "<group>";
+		};
+		9A3F5AF11E30967800EDB506 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A3F5AF21E30967800EDB506 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A3F5AEA1E30967800EDB506 /* SpeakLineDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3F5AFF1E30967800EDB506 /* Build configuration list for PBXNativeTarget "SpeakLineDemo" */;
+			buildPhases = (
+				9A3F5AE71E30967800EDB506 /* Sources */,
+				9A3F5AE81E30967800EDB506 /* Frameworks */,
+				9A3F5AE91E30967800EDB506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeakLineDemo;
+			productName = SpeakLineDemo;
+			productReference = 9A3F5AEB1E30967800EDB506 /* SpeakLineDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A3F5AE31E30967800EDB506 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZCG;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zcgong;
+				TargetAttributes = {
+					9A3F5AEA1E30967800EDB506 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FK82W32PLA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9A3F5AE61E30967800EDB506 /* Build configuration list for PBXProject "SpeakLineDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A3F5AE21E30967800EDB506;
+			productRefGroup = 9A3F5AEC1E30967800EDB506 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A3F5AEA1E30967800EDB506 /* SpeakLineDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A3F5AE91E30967800EDB506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3F5AF81E30967800EDB506 /* Assets.xcassets in Resources */,
+				9A3F5AFB1E30967800EDB506 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A3F5AE71E30967800EDB506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3F5AF61E30967800EDB506 /* ViewController.m in Sources */,
+				9A3F5AF31E30967800EDB506 /* main.m in Sources */,
+				9A3F5AF01E30967800EDB506 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A3F5AF91E30967800EDB506 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A3F5AFA1E30967800EDB506 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A3F5AFD1E30967800EDB506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9A3F5AFE1E30967800EDB506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9A3F5B001E30967800EDB506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FK82W32PLA;
+				INFOPLIST_FILE = SpeakLineDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.zcgong.SpeakLineDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A3F5B011E30967800EDB506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FK82W32PLA;
+				INFOPLIST_FILE = SpeakLineDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.zcgong.SpeakLineDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A3F5AE61E30967800EDB506 /* Build configuration list for PBXProject "SpeakLineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3F5AFD1E30967800EDB506 /* Debug */,
+				9A3F5AFE1E30967800EDB506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A3F5AFF1E30967800EDB506 /* Build configuration list for PBXNativeTarget "SpeakLineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3F5B001E30967800EDB506 /* Debug */,
+				9A3F5B011E30967800EDB506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A3F5AE31E30967800EDB506 /* Project object */;
+}
